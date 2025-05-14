@@ -18,8 +18,6 @@ print("Task 3 - Find the Factorial")
 x = int(input("Enter the starting number:"))
 facto = x
 for y in range(x-1,0,-1):
-    print(facto)
-    print(y)
     facto = facto * y
 
 print(f"The factorial of {x} is {facto}")
